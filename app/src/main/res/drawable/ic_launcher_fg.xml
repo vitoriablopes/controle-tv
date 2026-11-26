@@ -4,6 +4,11 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.2"
+        android:scaleY="1.2">
     <!-- corpo do controle -->
     <path
         android:fillColor="#FFF2F1EE"
@@ -19,4 +24,5 @@
     <path
         android:fillColor="#FF111111"
         android:pathData="M46.5,63a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM56.5,63a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM46.5,71a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM56.5,71a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0z" />
+    </group>
 </vector>
