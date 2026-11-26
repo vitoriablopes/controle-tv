@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ControleTV" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="colorPrimary">@color/text</item>
+        <item name="colorOnPrimary">@color/bg</item>
+        <item name="colorPrimaryContainer">@color/surface2</item>
+        <item name="colorOnPrimaryContainer">@color/text</item>
+        <item name="colorSecondary">@color/text2</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorOnSurfaceVariant">@color/text2</item>
+        <item name="colorSurfaceContainerHigh">@color/surface</item>
+        <item name="colorOutline">@color/stroke</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.ControleTV.Dialog</item>
+    </style>
+
+    <style name="ThemeOverlay.ControleTV.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="colorPrimary">@color/text</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceContainerHigh">@color/surface</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.ControleTV.DialogTitle</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.ControleTV.Body</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.ControleTV.Button</item>
+    </style>
+
+    <style name="TextAppearance.ControleTV.DialogTitle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.ControleTV.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="TextAppearance.ControleTV.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="fontFamily">@font/open_sans_semibold</item>
+    </style>
+
+    <!-- textos -->
+    <style name="Text" parent="">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Name">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="Text.Secondary">
+        <item name="android:textColor">@color/text2</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Text.Label">
+        <item name="android:textColor">@color/text2</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Section">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text2</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="Button.Filled" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/text</item>
+        <item name="android:textColor">@color/bg</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="strokeColor">@color/stroke</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+</resources>

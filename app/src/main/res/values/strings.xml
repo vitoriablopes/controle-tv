@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controle TV</string>
+    <string name="tv">TV</string>
+
+    <!-- tela principal -->
+    <string name="app_settings">Configurações do app</string>
+    <string name="no_tv_title">Nenhuma TV pareada</string>
+    <string name="no_tv_text">Deixe o celular e a TV na mesma rede Wi-Fi, com a TV ligada, e procure por ela.</string>
+    <string name="search_tvs">Procurar TVs</string>
+    <string name="shortcuts">Atalhos</string>
+    <string name="shortcuts_hint">segure para trocar</string>
+    <string name="btn_power">Ligar / desligar</string>
+    <string name="btn_power_off">Desligar</string>
+    <string name="btn_inputs">Entradas</string>
+    <string name="btn_tv_settings">Configurações</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_home">Início</string>
+    <string name="btn_menu">Menu</string>
+    <string name="btn_mute">Mudo</string>
+    <string name="btn_play_pause">Play / pausa</string>
+    <string name="btn_up">Seta para cima</string>
+    <string name="btn_down">Seta para baixo</string>
+    <string name="btn_left">Seta para a esquerda</string>
+    <string name="btn_right">Seta para a direita</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_vol_up">Aumentar volume</string>
+    <string name="btn_vol_down">Diminuir volume</string>
+    <string name="volume">Vol</string>
+    <string name="muted">Mudo</string>
+    <string name="open_app">Abrir %1$s</string>
+
+    <string name="status_connected">Conectado</string>
+    <string name="status_standby">Conectado · TV em espera</string>
+    <string name="status_connecting">Conectando…</string>
+    <string name="status_offline">TV fora de alcance · tentando de novo</string>
+    <string name="status_needs_pairing">A TV pediu um novo pareamento · toque aqui</string>
+    <string name="status_needs_pairing_short">Precisa parear de novo</string>
+    <string name="toast_connecting">Conectando à TV…</string>
+    <string name="toast_needs_pairing">Pareie a TV de novo (toque no nome dela, lá em cima)</string>
+
+    <!-- pareamento -->
+    <string name="pair_title">Parear uma TV</string>
+    <string name="pair_help">O celular e a TV precisam estar na mesma rede Wi-Fi, e a TV precisa estar ligada.</string>
+    <string name="searching">Procurando TVs…</string>
+    <string name="tap_your_tv">Toque na sua TV:</string>
+    <string name="not_found_hint">Nenhuma TV apareceu ainda. Confira se ela está ligada e na mesma rede. Se continuar sem aparecer, use o IP dela (fica em Configurações → Rede e internet, na TV).</string>
+    <string name="search_again">Procurar de novo</string>
+    <string name="type_ip">Digitar o IP da TV</string>
+    <string name="manual_ip_title">IP da TV</string>
+    <string name="manual_ip_help">Na TV, abra Configurações → Rede e internet → sua rede Wi-Fi. O endereço IP aparece ali.</string>
+    <string name="manual_ip_hint">ex.: 192.168.0.15</string>
+    <string name="error_ip">Digite um IP no formato 192.168.0.15</string>
+    <string name="tv_with_ip">TV (%1$s)</string>
+    <string name="connect">Conectar</string>
+    <string name="connecting_to">Conectando a %1$s…</string>
+    <string name="client_name">Controle TV · %1$s</string>
+    <string name="code_title">Código de pareamento</string>
+    <string name="code_help">Digite o código de 6 caracteres que apareceu na tela de %1$s.</string>
+    <string name="code_hint">Código</string>
+    <string name="pair">Parear</string>
+    <string name="paired_with">Pareado com %1$s!</string>
+    <string name="error_unreachable">Não consegui falar com a TV. Ela está ligada e na mesma rede Wi-Fi que o celular?</string>
+    <string name="error_pairing">Não deu para parear: %1$s</string>
+    <string name="error_connection_lost">A conexão com a TV caiu durante o pareamento. Tente de novo.</string>
+
+    <!-- configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="section_tv">TV</string>
+    <string name="no_tv_settings">Nenhuma TV pareada.</string>
+    <string name="pair_other_tv">Parear outra TV</string>
+    <string name="forget_tv">Desconectar e esquecer esta TV</string>
+    <string name="forget_title">Esquecer esta TV?</string>
+    <string name="forget_message">O app vai desconectar e parar de tentar se conectar a ela. Para usar de novo, será preciso parear outra vez com o código.</string>
+    <string name="forget_confirm">Esquecer</string>
+    <string name="section_shortcuts">Atalhos de streaming</string>
+    <string name="shortcuts_settings_hint">Toque em um atalho para escolher outro app. Na tela do controle, também dá para segurar o botão.</string>
+    <string name="section_other">Outros</string>
+    <string name="vibrate">Vibrar ao tocar nos botões</string>
+    <string name="section_tips">Dica para ligar a TV pelo app</string>
+    <string name="tip_power">Para o botão de ligar funcionar com a TV em espera, ela precisa continuar na rede. Nas configurações de energia da TV, procure uma opção como “Ligar pela rede”, “Wake on LAN” ou “Chromecast sempre disponível” e ative. Se a TV for desligada da tomada, o app não consegue ligá-la.</string>
+    <string name="version">Versão %1$s</string>
+
+    <!-- atalhos -->
+    <string name="shortcut_title">Botão %1$d</string>
+    <string name="other_app">Outro app…</string>
+    <string name="custom_app_help">Coloque o nome que vai aparecer no botão e o nome do pacote do app. Ele aparece no link do app na Play Store, depois de “id=” (pode colar o link inteiro).</string>
+    <string name="custom_app_name">Nome no botão</string>
+    <string name="custom_app_package">Pacote ou link da Play Store</string>
+    <string name="error_name">Dê um nome ao botão</string>
+    <string name="error_package">Pacote inválido (ex.: com.empresa.app)</string>
+
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+</resources>

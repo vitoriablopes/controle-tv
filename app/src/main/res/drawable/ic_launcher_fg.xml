@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- corpo do controle -->
+    <path
+        android:fillColor="#FFF2F1EE"
+        android:pathData="M46,28h16a6,6 0 0 1 6,6v40a6,6 0 0 1 -6,6h-16a6,6 0 0 1 -6,-6v-40a6,6 0 0 1 6,-6z" />
+    <!-- direcional -->
+    <path
+        android:fillColor="#FF111111"
+        android:pathData="M45,45a9,9 0 1,0 18,0a9,9 0 1,0 -18,0z" />
+    <path
+        android:fillColor="#FFF2F1EE"
+        android:pathData="M50.5,45a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0z" />
+    <!-- botões -->
+    <path
+        android:fillColor="#FF111111"
+        android:pathData="M46.5,63a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM56.5,63a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM46.5,71a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0zM56.5,71a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0z" />
+</vector>
